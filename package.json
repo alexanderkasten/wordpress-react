@@ -1,0 +1,19 @@
+{
+  "name": "wordpress-react",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/alexanderkasten/wordpress-react.git"
+  },
+  "author": "Alexander Kasten",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alexanderkasten/wordpress-react/issues"
+  },
+  "homepage": "https://github.com/alexanderkasten/wordpress-react#readme"
+}
