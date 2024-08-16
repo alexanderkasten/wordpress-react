@@ -6,6 +6,7 @@
   "source": "src/index.ts",
   "main": "dist/main.js",
   "scripts": {
+    "prepare": "npm run build",
     "watch": "parcel watch",
     "build": "parcel build",
     "check": "tsc --noEmit",
