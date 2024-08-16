@@ -1,0 +1,26 @@
+# Ignore build output
+/dist/
+/out/
+
+# Ignore dependencies
+/node_modules/
+
+# Ignore environment-specific files
+.env
+.env.local
+.env.*.local
+
+# Ignore editor and IDE files
+.vscode/
+.idea/
+*.sublime-*
+*.swp
+*.swo
+
+# Ignore logs and debugging files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+debug.log
+
+.parcel-cache

@@ -2,8 +2,14 @@
   "name": "wordpress-react",
   "version": "0.0.0",
   "description": "",
-  "main": "index.js",
+  "type": "module",
+  "source": "src/index.ts",
+  "main": "dist/main.js",
   "scripts": {
+    "watch": "parcel watch",
+    "build": "parcel build",
+    "check": "tsc --noEmit",
+    "lint": "prettier --write .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +21,17 @@
   "bugs": {
     "url": "https://github.com/alexanderkasten/wordpress-react/issues"
   },
-  "homepage": "https://github.com/alexanderkasten/wordpress-react#readme"
+  "homepage": "https://github.com/alexanderkasten/wordpress-react#readme",
+  "browserslist": "fully supports es6-module",
+  "devDependencies": {
+    "@parcel/transformer-typescript-types": "^2.12.0",
+    "@trivago/prettier-plugin-sort-imports": "^4.3.0",
+    "parcel": "^2.12.0",
+    "prettier": "^3.3.3",
+    "prettier-plugin-tailwindcss": "^0.6.6",
+    "typescript": "^5.5.4"
+  },
+  "files": [
+    "dist"
+  ]
 }
